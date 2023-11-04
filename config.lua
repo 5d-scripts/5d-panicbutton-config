@@ -45,7 +45,7 @@ if (not IsDuplicityVersion()) then
  -- Notify event. Can be replaced.
     ---@param message string Message to be displayed for the notify.
     ---@param type string Notify type. Either success or errror.
-    RegisterNetEvent("5d-shops:notify", function(message, type)
+    RegisterNetEvent("5d-panicbutton:notify", function(message, type)
         ESX.ShowNotification(message)
     end)
 end
